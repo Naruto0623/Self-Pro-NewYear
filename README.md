@@ -1,4 +1,4 @@
-# vuex
+# NewYear
 
 > A Vue.js project
 
