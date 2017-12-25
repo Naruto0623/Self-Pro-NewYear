@@ -1,6 +1,6 @@
 <template>
   <div class="boxH">
-    <audio ref="audio" autoplay>
+    <audio autoplay>
       <source src="../../static/vioce/Summer.mp3"/>
     </audio>
     <audio ref="audio" loop="-1">
