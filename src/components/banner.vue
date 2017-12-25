@@ -91,7 +91,7 @@
     background: url('../assets/img/slide3.png') no-repeat center;
     height: 100%;
     background-size: 100%;
-    color: #0f0;
+    color: #fff;
     text-indent: 2.8rem;
   }
   .slide3>p {
