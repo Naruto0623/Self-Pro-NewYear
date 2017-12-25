@@ -1,0 +1,67 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+  font-family: 'Microsoft YaHei';
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  flex: 1;
+  display: flex;
+  width: 100%;
+  overflow-y: auto;
+}
+
+header {
+  height: 4.4rem;
+  width: 100%;
+}
+
+footer {
+  height: 4.4rem;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'words';
+  src: url('../fonts/Carefree.ttf');
+  src: url('../fonts/Carefree.ttf?#iefix') format('embedded-opentype'),
+  url('../fonts/Carefree.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'china';
+  src: url('../fonts/china.ttf');
+  src: url('../fonts/china.ttf?#iefix') format('embedded-opentype'),
+  url('../fonts/china.ttf') format('truetype')
+}
+
+.words {
+  font-family: "words" !important;
+  font-size: 1.6rem;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.china {
+  font-family: "china" !important;
+  font-size: 2.2rem;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
