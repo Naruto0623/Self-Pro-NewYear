@@ -65,6 +65,35 @@
             </p>
           </div>
         </div>
+        <div class="swiper-slide">
+          <div class="slide4">
+            <!--Be-->
+            <p class="ani" swiper-animate-effect="rollIn" swiper-animate-duration="1.5s" swiper-animate-delay="0.2s"
+               style="position: absolute;top: 16rem;left: 6rem;">
+              <img src="../assets/img/end/Be.png" height="80rem" alt="">
+            </p>
+            <!--my-->
+            <p class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="1s"
+               style="position: absolute;top: 17rem;left: 14rem;">
+              <img src="../assets/img/end/my.png" height="80rem" alt="">
+            </p>
+            <!--grilfriend-->
+            <p class="ani" swiper-animate-effect="rotateIn" swiper-animate-duration="3s" swiper-animate-delay="5s"
+               style="position: absolute;top: 24rem;left: 3rem;">
+              <img src="../assets/img/end/girl.png" height="85rem">
+            </p>
+            <!--in-->
+            <p class="ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="5s" swiper-animate-delay="2s"
+               style="position: absolute;top: 32rem;left: 10rem;">
+              <img src="../assets/img/end/in.png" height="80rem">
+            </p>
+            <!--2018-->
+            <p class="ani" swiper-animate-effect="flip" swiper-animate-duration="3s" swiper-animate-delay="3s"
+               style="position: absolute;bottom: 11rem;left: 5rem;">
+              <img src="../assets/img/end/2018.png" height="60rem" alt="">
+            </p>
+          </div>
+        </div>
       </div>
       <div class="swiper-pagination"></div>
     </div>
@@ -94,16 +123,22 @@
     color: #fff;
     text-indent: 2.8rem;
   }
+  .slide4 {
+    background: url('../assets/img/end/bj.png') no-repeat center;
+    height: 100%;
+    background-size: 100%;
+    color: #fff;
+    text-indent: 2.8rem;
+  }
   .slide3>p {
     padding: 1rem;
     padding-top: 20%;
-    line-height: 3rem;
-    text-shadow:#000 1px 1px 1;
+    line-height: 4rem;
   }
 
   .msg1 {
     position: absolute;
-    top: 18rem;
+    top: 20rem;
     left: 0;
     font-size: 3.5rem;
     padding: 1.5rem;
@@ -120,8 +155,10 @@
         flag: true,
         known: true,
         known3: true,
-        testWord: 'Long long ago, there was a sincer cordial emotion in front of me, but I didn\'t cherish it. Until it lost, I just regreted at that time. It is only the most suffering thing in the world.But now...',
-        slide3Word: '你说你喜怒哀乐反复无常，我就是你的沙袋让你发泄对现实的一切不满；你说你死气沉沉没有活力，我就是你的彩面小丑逗你开心让你笑；你说你深陷过去不能自拔，我就是你的朝阳拨开层层阴霾照进亮你的内心。'
+        // testWord: 'Long long ago, there was a sincer cordial emotion in front of me, but I didn\'t cherish it. Until it lost, I just regreted at that time. It is only the most suffering thing in the world.But now...',
+        testWord: '测试',
+        slide3Word: '你说你喜怒哀乐反复无常，我就是你的沙袋让你发泄对现实的一切不满；你说你死气沉沉没有活力，我就是你的彩面小丑逗你开心让你笑；你说你深陷过去不能自拔，我就是你的朝阳拨开层层阴霾照进亮你的心房。',
+        slideWord: '清晨，还没睁眼，就在想今天要给你发一个什么样的早安，暮色，没有你的一句晚安便迟迟无法睡去。糟心的生活每天都能变着花样的打击人，但每当你的笑容浮现在我的眼前，这个世界便不再冰冷，看着你笑，我便能安心。我喜欢你，喜欢看着你笑，喜欢和你斗嘴，喜欢你说“不”时候的傲娇，喜欢你无聊时萌萌的嘟嘴，喜欢你的恍然大悟时的发呆……'
       }
     },
     computed: {},
@@ -167,7 +204,6 @@
                       setTimeout(function () {
                         that.typing(that.testWord, 250, num - 1);
                         that.$refs.audio.play();
-                        that.$refs.audio.playbackRate = 0.8;
                         that.flag = false;
                         that.known = false;
                       }, 3000);
