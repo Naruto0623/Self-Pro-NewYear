@@ -54,7 +54,7 @@
                style="position: absolute;bottom: 2rem;right: 5%;font-size: 2rem;padding: 1.5rem;line-height: 1.5;font-weight: 600;">
               <img src="../assets/img/slide2/man.png" height="80rem" alt="">
             </p>
-            <p v-for="(index,item) in one" class="ani msg1 words" swiper-animate-effect="flip" swiper-animate-duration="0.5s"
+            <p class="ani msg1 words" swiper-animate-effect="flip" swiper-animate-duration="0.5s"
                swiper-animate-delay="4000s">{{msg[0]}}</p>
           </div>
         </div>
