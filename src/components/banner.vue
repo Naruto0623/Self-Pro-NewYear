@@ -22,16 +22,16 @@
             </p>
             <!--两个人-->
             <p class="ani" swiper-animate-effect="zoomInRight" swiper-animate-duration="3s" swiper-animate-delay="2s"
-               style="position: absolute;top: 17rem;left: 10%;font-size: 2rem;padding: 1.5rem;line-height: 1.5;font-weight: 600;">
+               style="position: absolute;top: 20rem;left: 15%;font-size: 2rem;padding: 1.5rem;line-height: 1.5;font-weight: 600;">
               <img src="../assets/img/slide1/lover.png" height="230rem" alt="">
             </p>
             <!--帽子-->
             <p class="ani" swiper-animate-effect="rotateInUpLeft" swiper-animate-duration="3s" swiper-animate-delay="4s"
-               style="position: absolute;top: 13rem;left: 25%;font-size: 2rem;padding: 1.5rem;line-height: 1.5;font-weight: 600;">
+               style="position: absolute;top: 15rem;left: 28%;font-size: 2rem;padding: 1.5rem;line-height: 1.5;font-weight: 600;">
               <img src="../assets/img/slide1/cat.png" height="80rem" alt="">
             </p>
             <!--雪花-->
-            <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="5s" swiper-animate-delay="3s"
+            <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="10s" swiper-animate-delay="4s"
                style="position: absolute;bottom: 0;right: 0;font-size: 2rem;padding: 1.5rem;line-height: 1.5;font-weight: 600;">
               <img src="../assets/img/slide1/snow.png" width="100%" alt="">
             </p>
@@ -174,7 +174,7 @@
                     }
                     break;
                   case 2:
-                    if(that.known3){
+                    if(that.known3 && !that.known){
                       that.typing(that.slide3Word, 250, num - 1);
                       that.$refs.audio.play();
                       that.$refs.audio.playbackRate = 0.8;
