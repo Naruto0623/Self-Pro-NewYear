@@ -171,6 +171,7 @@
     padding: 1rem;
     padding-top: 20%;
     line-height: 4rem;
+    text-shadow: 8px 2px 4px rgba(0, 0, 0, 0.9);
   }
 
   .slide4 {
