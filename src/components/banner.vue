@@ -14,12 +14,12 @@
         <div class="swiper-slide">
           <div class="slide1">
             <!--礼盒-->
-            <p class="ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1.5s" swiper-animate-delay="0.2s"
+            <p class="ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1.5s" swiper-animate-delay="1s"
                style="position: absolute;bottom: 2rem;right: 0;">
               <img src="../assets/img/slide1/box.png" height="200rem" alt="">
             </p>
             <!--雪人-->
-            <p class="ani" swiper-animate-effect="rollIn" swiper-animate-duration="1.8s" swiper-animate-delay="1s"
+            <p class="ani" swiper-animate-effect="rollIn" swiper-animate-duration="1.8s" swiper-animate-delay="1.5s"
                style="position: absolute;bottom: 3rem;left: 1%;">
               <img src="../assets/img/slide1/snowman.png" height="150rem" alt="">
             </p>
@@ -34,7 +34,7 @@
               <img src="../assets/img/slide1/cat.png" height="80rem" alt="">
             </p>
             <!--雪花-->
-            <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="10s" swiper-animate-delay="4s"
+            <p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="5s" swiper-animate-delay="4s"
                style="position: absolute;bottom: 0;right: 0;">
               <img src="../assets/img/slide1/snow.png" width="100%" alt="">
             </p>
