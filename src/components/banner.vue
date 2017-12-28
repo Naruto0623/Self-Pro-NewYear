@@ -53,7 +53,7 @@
               <img src="../assets/img/slide2/top.png" height="150rem" alt="">
             </p>
             <!--圣诞老人-->
-            <p class="ani" swiper-animate-effect="zoomInRight" swiper-animate-duration="3s" swiper-animate-delay="2s"
+            <p class="ani" swiper-animate-effect="zoomInRight" swiper-animate-duration="5s" swiper-animate-delay="2s"
                style="position: absolute;bottom: 2rem;right: 5%;">
               <img src="../assets/img/slide2/man.png" height="80rem" alt="">
             </p>
@@ -164,7 +164,7 @@
     height: 100%;
     background-size: 100%;
     color: #fff;
-    text-indent: 2.8rem;
+    text-indent: 3.5rem;
   }
 
   .slide3 > p {
@@ -187,7 +187,7 @@
     color: #fff;
     text-shadow: 8px 2px 4px rgba(0, 0, 0, 0.9);
     line-height: 3rem;
-    text-indent: 2.8rem;
+    text-indent: 3.5rem;
   }
 
   .slide5 {
@@ -195,7 +195,6 @@
     height: 100%;
     background-size: 100%;
     color: #fff;
-    text-indent: 2.8rem;
   }
 
   .msg1 {
