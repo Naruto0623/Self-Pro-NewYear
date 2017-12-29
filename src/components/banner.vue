@@ -87,27 +87,27 @@
           <div class="slide5">
             <!--Be-->
             <p class="ani" swiper-animate-effect="rollIn" swiper-animate-duration="1.5s" swiper-animate-delay="0.2s"
-               style="position: absolute;top: 14rem;left: 6rem;">
+               style="position: absolute;top: 14rem;left: 9rem;">
               <img src="../assets/img/end/Be.png" height="80rem" alt="">
             </p>
             <!--my-->
             <p class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="1s"
-               style="position: absolute;top: 15rem;left: 15rem;">
+               style="position: absolute;top: 15rem;left: 17rem;">
               <img src="../assets/img/end/my.png" height="80rem" alt="">
             </p>
             <!--grilfriend-->
             <p class="ani" swiper-animate-effect="rotateIn" swiper-animate-duration="3s" swiper-animate-delay="5s"
-               style="position: absolute;top: 24rem;left: 3rem;">
+               style="position: absolute;top: 24rem;left: 6rem;">
               <img src="../assets/img/end/girl.png" height="85rem">
             </p>
             <!--in-->
             <p class="ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="5s" swiper-animate-delay="2s"
-               style="position: absolute;top: 33rem;left: 11rem;">
+               style="position: absolute;top: 33rem;left: 13rem;">
               <img src="../assets/img/end/in.png" height="60rem">
             </p>
             <!--2018-->
             <p class="ani" swiper-animate-effect="flip" swiper-animate-duration="3s" swiper-animate-delay="3s"
-               style="position: absolute;bottom: 9rem;left: 5rem;">
+               style="position: absolute;bottom: 9rem;left: 7rem;">
               <img src="../assets/img/end/2018.png" height="60rem" alt="">
             </p>
           </div>
